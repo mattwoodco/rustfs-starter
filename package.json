@@ -1,0 +1,11 @@
+{
+	"scripts": {
+		"test": "bun test.ts",
+		"docker:up": "docker compose up -d",
+		"docker:down": "docker compose down",
+		"docker:logs": "docker compose logs -f rustfs"
+	},
+	"devDependencies": {
+		"bun-types": "^1.3.1"
+	}
+}
